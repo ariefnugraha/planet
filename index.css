@@ -5,9 +5,9 @@
     --white: #ffffff;
     --black: #000000;
 
-    --heading1: normal normal bold 40px/180% "Mulish", sans-serif;
-    --heading2: normal normal bold 30px/180% "Mulish", sans-serif;
-    --heading3: normal normal bold 20px/180% "Mulish", sans-serif;
+    --heading1: normal normal normal 40px/180% "Mulish", sans-serif;
+    --heading2: normal normal normal 30px/180% "Mulish", sans-serif;
+    --heading3: normal normal normal 20px/180% "Mulish", sans-serif;
     --regular: normal normal normal 16px/180% "Poppins", sans-serif;
     --small: normal normal normal 14px/180% "Poppins", sans-serif;
 }
@@ -18,7 +18,72 @@ body {
 }   
 
 .navbar {
-    padding: 5vh 10vw;
+    padding: 2vh 10vw;
+    border-bottom: solid 1px #E8e8e8;
 }
 
-.navbar 
+.navbar .logo {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.introduction {
+    padding: 10vh 10vw;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.introduction .planet-image img {
+    width: 300px;
+    height: 300px;
+}
+
+.introduction .introduction-content .title {
+    text-transform: capitalize;
+}
+
+.video {
+    padding: 0 10vw;
+}
+
+.video .video-item {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 5vh 10vw;
+    text-transform: capitalize;
+}
+
+.info .info-item .label {
+    font: var(--small);
+}
+
+.info .info-item .value {
+    font-weight: bold;
+}
+
+.fun-fact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5vh 10vw;
+    gap: 50px 50px;
+    text-transform: capitalize;
+}
+
+.fun-fact-item {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 20px;
+}
+
+.fun-fact .fun-fact-item .fun-fact-image img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
