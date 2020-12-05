@@ -1,0 +1,24 @@
+/* IMPORTING FONT FROM GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Poppins&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --heading1: normal normal bold 40px/180% "Mulish", sans-serif;
+    --heading2: normal normal bold 30px/180% "Mulish", sans-serif;
+    --heading3: normal normal bold 20px/180% "Mulish", sans-serif;
+    --regular: normal normal normal 16px/180% "Poppins", sans-serif;
+    --small: normal normal normal 14px/180% "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font: var(--regular);
+}   
+
+.navbar {
+    padding: 5vh 10vw;
+}
+
+.navbar 
