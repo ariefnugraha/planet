@@ -4,103 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planet By Muhammad Arief Nugraha</title>
-    <link href="index.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
   </head>
-  <body>
+  <body id="body" class="lightmode">
     <!-- START OF NAVBAR -->
     <nav class="navbar">
-      <h1>
-        <a class="logo" href="index.html">Milky Way</a>
-      </h1>
+      <div class="logo">
+        <h1>
+          <a class="logo" href="index.html">Milky Way</a>
+        </h1>
+      </div>
+
+      <div class="toggle-mode">
+          <div class="toggle-button">
+                <i id="toggle-icon" class="fas fa-sun"></i>
+          </div>
+      </div>
     </nav>
 
     <!-- END OF NAVBAR -->
 
     <!-- START OF PLANET INTRODUCTION-->
     <section class="introduction">
-        <div class="planet-image">
-            <img src="asset/earth.png" alt="Earth Image">
-        </div>
-        <div class="introduction-content">
-            <h2 class="title">earth</h2>
-            <p class="description">Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.</p>
-        </div>
+      <div class="planet-image">
+        <img src="asset/earth.png" alt="Earth Image" />
+      </div>
+      <div class="introduction-content">
+        <h2 class="title">earth</h2>
+        <p class="description">
+          Earth is the third planet from the Sun and the only astronomical
+          object known to harbor life. About 29% of Earth's surface is land
+          consisting of continents and islands. The remaining 71% is covered
+          with water, mostly by oceans but also lakes, rivers and other fresh
+          water, which together constitute the hydrosphere. Much of Earth's
+          polar regions are covered in ice. Earth's outer layer is divided into
+          several rigid tectonic plates that migrate across the surface over
+          many millions of years. Earth's interior remains active with a solid
+          iron inner core, a liquid outer core that generates Earth's magnetic
+          field, and a convecting mantle that drives plate tectonics.
+        </p>
+      </div>
     </section>
 
     <!-- END OF PLANET INTRODUCTION -->
-    
+
     <!-- START OF VIDEO-->
     <section class="video">
-        <video class="video-item" src="asset/video.mp4" type="video/mp4" controls autoplay></video>
+      <video
+        class="video-item"
+        src="asset/video.mp4"
+        type="video/mp4"
+        controls
+        autoplay
+      ></video>
     </section>
 
     <!-- END OF VIDEO-->
 
     <!-- START OF PLANET DETAIL INFO -->
     <section class="info">
-        <div class="info-item">
-            <p class="label">Temperature</p>
-            <p class="value">-88 to 58&#176; C</p>
-        </div>
-        <div class="info-item">
-            <p class="label">Satellites</p>
-            <p class="value">1 (Moon)</p>
-        </div>
-        <div class="info-item">
-            <p class="label">Radius</p>
-            <p class="value">6,371.0 KM</p>
-        </div>
-        <div class="info-item">
-            <p class="label">orbit speed</p>
-            <p class="value">-88 to 58&#176; C</p>
-        </div>
-        <div class="info-item">
-            <p class="label">orbit periode</p>
-            <p class="value">365 days (1 year)</p>
-        </div>
+      <div class="info-item">
+        <p class="label">Temperature</p>
+        <p class="value">-88 to 58&#176; C</p>
+      </div>
+      <div class="info-item">
+        <p class="label">Satellites</p>
+        <p class="value">1 (Moon)</p>
+      </div>
+      <div class="info-item">
+        <p class="label">Radius</p>
+        <p class="value">6,371.0 KM</p>
+      </div>
+      <div class="info-item">
+        <p class="label">orbit speed</p>
+        <p class="value">-88 to 58&#176; C</p>
+      </div>
+      <div class="info-item">
+        <p class="label">orbit periode</p>
+        <p class="value">365 days (1 year)</p>
+      </div>
     </section>
 
     <!-- END OF PLANET DETAIL INFO -->
 
     <!-- START OF FUN FACT -->
     <section class="fun-fact">
-        <div class="fun-fact-item">
-            <div class="fun-fact-image">
-                <img src="asset/iceberg.jpg" alt="Iceberg">
-            </div>
-            <div class="fun-fact-text">
-                <p>earth is the only place in the solar system where water can present in its three states: solid, liquid, and vapour</p>
-            </div>
+      <div class="fun-fact-item">
+        <div class="fun-fact-image">
+          <img src="asset/iceberg.jpg" alt="Iceberg" />
         </div>
+        <div class="fun-fact-text">
+          <p>
+            earth is the only place in the solar system where water can present
+            in its three states: solid, liquid, and vapour
+          </p>
+        </div>
+      </div>
 
-        <div class="fun-fact-item">
-            <div class="fun-fact-image">
-                <img src="asset/satellite.jpg" alt="Iceberg">
-            </div>
-            <div class="fun-fact-text">
-                <p>earth day is getting longer by 1.7 miliseconds every century</p>
-            </div>
+      <div class="fun-fact-item">
+        <div class="fun-fact-image">
+          <img src="asset/satellite.jpg" alt="Iceberg" />
         </div>
+        <div class="fun-fact-text">
+          <p>earth day is getting longer by 1.7 miliseconds every century</p>
+        </div>
+      </div>
 
-        <div class="fun-fact-item">
-            <div class="fun-fact-image">
-                <img src="asset/greek.jpg" alt="Iceberg">
-            </div>
-            <div class="fun-fact-text">
-                <p>earth is the only plane whose name in English is not derived from a Greek-Roman God</p>
-            </div>
+      <div class="fun-fact-item">
+        <div class="fun-fact-image">
+          <img src="asset/greek.jpg" alt="Iceberg" />
         </div>
+        <div class="fun-fact-text">
+          <p>
+            earth is the only plane whose name in English is not derived from a
+            Greek-Roman God
+          </p>
+        </div>
+      </div>
 
-        <div class="fun-fact-item">
-            <div class="fun-fact-image">
-                <img src="asset/moon.jpg" alt="Iceberg">
-            </div>
-            <div class="fun-fact-text">
-                <p>if the earth didn't have the moon, our days would be only be 6 hours long</p>
-            </div>
+      <div class="fun-fact-item">
+        <div class="fun-fact-image">
+          <img src="asset/moon.jpg" alt="Iceberg" />
         </div>
+        <div class="fun-fact-text">
+          <p>
+            if the earth didn't have the moon, our days would be only be 6 hours
+            long
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- END OF FUN FACT -->
+
+    <script src="index.js"></script>
   </body>
 </html>

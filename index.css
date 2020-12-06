@@ -12,12 +12,28 @@
     --small: normal normal normal 14px/180% "Poppins", sans-serif;
 }
 
+.lightmode {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.darkmode {
+    background-color: var(--black);
+    color: var(--white) !important;
+}
+
+.darkmode h1, .darkmode h2, .darkmode h3, .darkmode a, .darkmode p {
+    color: var(--white) !important;
+}
+
 body {
     margin: 0;
     font: var(--regular);
 }   
 
 .navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 2vh 10vw;
     border-bottom: solid 1px #E8e8e8;
 }
@@ -25,6 +41,33 @@ body {
 .navbar .logo {
     color: var(--black);
     text-decoration: none;
+}
+
+.navbar .toggle-mode {
+    position: relative;
+    left: 350px;
+    top: 12px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    background-color: #E8e8e8;
+}
+
+.navbar .toggle-mode .toggle-button {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.navbar .toggle-mode .toggle-button i {
+    margin-top: 6px;
 }
 
 .introduction {
